@@ -17,9 +17,7 @@ const Student = require("./models/Student");
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.listen(3010, () => {
-  console.log('Server started on port 3010')
-})
+
 
 require("./models/Activity");
 require("./models/Feedback");
